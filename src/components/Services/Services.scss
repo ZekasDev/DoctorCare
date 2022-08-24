@@ -1,0 +1,64 @@
+.services-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #f7f9f9;
+
+  padding-top: 300px;
+
+  span {
+    color: #00856f;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 100px;
+  }
+
+  h1 {
+    color: black;
+    text-align: center;
+    font-size: 34px;
+    max-width: 330px;
+    line-height: 100%;
+    margin-top: 16px;
+    margin-bottom: 60px;
+  }
+
+  .cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 34px;
+    margin-bottom: 100px;
+
+    .card {
+      background-color: white;
+      padding: 24px;
+      max-width: 372px;
+      border-radius: 6px;
+      border: 1px solid #dce9e2;
+
+      h2 {
+        color: black;
+        font-size: 24px;
+        margin-top: 16px;
+      }
+
+      p {
+        font-size: 16px;
+        color: #495057;
+        margin-top: 16px;
+      }
+      .check-mark {
+        background-color: #dce9e2;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        width: 24px;
+        height: 24px;
+      }
+    }
+  }
+}
