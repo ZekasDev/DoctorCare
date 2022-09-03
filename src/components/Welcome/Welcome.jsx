@@ -3,8 +3,8 @@ import { FiPhoneCall } from 'react-icons/fi'
 import './Welcome.scss'
 export default function Welcome() {
   return (
-    <section className="welcome-container">
-      <h3> BEM VINDOS A DOCTORCARE 🐷 </h3>
+    <section className="welcome-container" id="inicio">
+      <h3> BEM VINDOS A DOCTORCARE 👍 </h3>
       <h1> Assistência Médica simplificada para todos! </h1>
       <p>
         Nosso foco é a saúde acessível e disponível para todas as idades e todas
