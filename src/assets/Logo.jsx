@@ -8,6 +8,7 @@ function Logo() {
       height="25"
       fill="none"
       viewBox="0 0 133 18"
+      style={{cursor: 'pointer'}}
     >
       <path
         fill="#fff"

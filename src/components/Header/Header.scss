@@ -1,8 +1,14 @@
 .header-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
   background-color: #00856f;
-
   padding: 27px 24px;
+  display: block;
+
+  .header-wrapper {
+    max-width: 330px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-inline: auto;
+
+  }
 }

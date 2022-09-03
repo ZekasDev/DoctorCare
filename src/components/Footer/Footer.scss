@@ -1,0 +1,23 @@
+.footer-container {
+  background-color: #00856f;
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-inline: 20px;
+    margin-inline: auto;
+    max-width: 330px;
+
+    span {
+      color: white;
+      font-size: 14px;
+    }
+    .social {
+      display: flex;
+      gap: 15px;
+    }
+  }
+}
