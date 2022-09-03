@@ -1,7 +1,11 @@
 .header-container {
-  background-color: #00856f;
+  background-color: transparent;
   padding: 27px 24px;
   display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
 
   .header-wrapper {
     max-width: 330px;
@@ -10,5 +14,16 @@
     justify-content: space-between;
     margin-inline: auto;
 
+    .header-icon {
+      color: #00856f;
+
+      &.scrolled {
+        color: #fff;
+      }
+    }
+  }
+
+  &.scrolled {
+    background-color: #00856f;
   }
 }

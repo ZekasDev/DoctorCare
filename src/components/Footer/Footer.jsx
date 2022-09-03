@@ -7,7 +7,7 @@ export default function Footer() {
   return (
     <div className="footer-container">
       <div className="wrapper">
-        <Logo />
+        <Logo colored={false}/>
         <span>DoctorCare - 2021</span>
         <span>Todos os Direitos Reservados</span>
         <div className="social">
